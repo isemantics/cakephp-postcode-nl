@@ -1,7 +1,7 @@
 <?php
-namespace Zipcoder\Model\Table;
+namespace ZipCoder\Model\Table;
 
-use Zipcoder\Model\Entity\ZipCode;
+use ZipCoder\Model\Entity\ZipCode;
 
 use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;

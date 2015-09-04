@@ -1,7 +1,7 @@
 <?php
-namespace Zipcoder\Test\TestCase\Model\Table;
+namespace ZipCoder\Test\TestCase\Model\Table;
 
-use Zipcoder\Model\Table\ZipCodesTable;
+use ZipCoder\Model\Table\ZipCodesTable;
 use Cake\ORM\TableRegistry;
 use Cake\TestSuite\TestCase;
 
@@ -17,7 +17,7 @@ class ZipCodesTableTest extends TestCase
      * @var array
      */
     public $fixtures = [
-        'app.zip_codes'
+        'zip_coder.zip_codes'
     ];
 
     /**
@@ -28,7 +28,7 @@ class ZipCodesTableTest extends TestCase
     public function setUp()
     {
         parent::setUp();
-        $config = TableRegistry::exists('ZipCodes') ? [] : ['className' => 'App\Model\Table\ZipCodesTable'];
+        $config = TableRegistry::exists('ZipCodes') ? [] : ['className' => 'ZipCoder\Model\Table\ZipCodesTable'];
         $this->ZipCodes = TableRegistry::get('ZipCodes', $config);
     }
 
@@ -61,6 +61,7 @@ class ZipCodesTableTest extends TestCase
      */
     public function testValidationDefault()
     {
+    	$this->assertTrue(false);
         $this->markTestIncomplete('Not implemented yet.');
     }
 

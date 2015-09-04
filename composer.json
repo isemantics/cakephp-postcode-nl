@@ -25,17 +25,16 @@
 	},
 	"autoload": {
 	  "psr-4": {
-		"Zipcoder\\": "src"
+		"ZipCoder\\": "src"
 	  }
 	},
 	"autoload-dev": {
 	  "psr-4": {
-		"Zipcoder\\Tests\\": "tests/TestCase",
-		"Zipcoder\\Tests\\Fixture\\": "tests/Fixture",
-		"Zipcoder\\Tests\\Stubs\\": "tests/Stubs"
+		"ZipCoder\\Tests\\": "tests/TestCase",
+		"ZipCoder\\Tests\\Fixture\\": "tests/Fixture"
 	  }
 	},
 	"extra": {
-		"installer-name": "Zipcoder"	
+		"installer-name": "ZipCoder"	
 	}
 }

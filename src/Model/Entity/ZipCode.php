@@ -1,5 +1,5 @@
 <?php
-namespace Zipcoder\Model\Entity;
+namespace ZipCoder\Model\Entity;
 
 use Cake\ORM\Entity;
 
