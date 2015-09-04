@@ -1,13 +1,41 @@
 {
     "name": "michelpeters/cakephp-postcode-nl",
     "description": "Postcode NL helpers/component",
-    "license": "DWTFYW",
-    "authors": [
+	"type": "cakephp-plugin",
+  	"keywords": ["cakephp", "cakephp3", "postcode", "netherlands", "nederland", "autocomplete"],
+  	"homepage": "https://github.com/michelpeters/cakephp-postcode-nl",
+  	"license": "MIT",
+  	  "authors": [
         {
             "name": "Michel Peters",
             "email": "info@isemantics.nl"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}   
+	"support": {
+	  "irc": "irc://irc.freenode.org/cakephp",
+	  "issues": "https://github.com/michelpeters/cakephp-postcode-nl/issues",
+	  "source": "https://github.com/michelpeters/cakephp-postcode-nl"
+	},
+	"require": {
+		"php": ">=5.4.16",
+		"cakephp/cakephp": "~3.0"
+	},
+  	"require-dev": {
+	  "phpunit/phpunit": "*"
+	},
+	"autoload": {
+	  "psr-4": {
+		"Postcoder\\": "src"
+	  }
+	},
+	"autoload-dev": {
+	  "psr-4": {
+		"Postcoder\\Tests\\": "tests/TestCase",
+		"Postcoder\\Tests\\Fixture\\": "tests/Fixture",
+		"Postcoder\\Tests\\Stubs\\": "tests/Stubs"
+	  }
+	},
+	"extra": {
+		"installer-name": "Postcoder"	
+	}
 }
