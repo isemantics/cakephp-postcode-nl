@@ -25,17 +25,17 @@
 	},
 	"autoload": {
 	  "psr-4": {
-		"Postcoder\\": "src"
+		"Zipcoder\\": "src"
 	  }
 	},
 	"autoload-dev": {
 	  "psr-4": {
-		"Postcoder\\Tests\\": "tests/TestCase",
-		"Postcoder\\Tests\\Fixture\\": "tests/Fixture",
-		"Postcoder\\Tests\\Stubs\\": "tests/Stubs"
+		"Zipcoder\\Tests\\": "tests/TestCase",
+		"Zipcoder\\Tests\\Fixture\\": "tests/Fixture",
+		"Zipcoder\\Tests\\Stubs\\": "tests/Stubs"
 	  }
 	},
 	"extra": {
-		"installer-name": "Postcoder"	
+		"installer-name": "Zipcoder"	
 	}
 }
